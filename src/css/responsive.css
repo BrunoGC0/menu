@@ -1,0 +1,29 @@
+@media(max-width:650px){
+    .container{
+        flex-direction: column;
+    }
+
+    .logo h1{
+        font-size: 40px;
+    }
+
+    .lista{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .lista li{
+        padding: 30px;
+        justify-content: center;
+    }
+
+    .lista li a{
+        font-size: 40px;
+        padding: 17px 40px;
+    }
+
+     .lista li a.cadastro{
+        font-size: 18px;
+        padding: 15px 23px;
+    }
+}
